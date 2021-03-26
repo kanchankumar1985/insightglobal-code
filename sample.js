@@ -15,7 +15,7 @@ What will be returned by each of these?
  * 1. duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]
  */
 function duplicate(src) {
- return [...src , ...src]; returns // [1,2,3,4,5,1,2,3,4,5]
+ return [...src , ...src]; returns // [1,2,3,4,5,1,2,3,4,5] spread operator used
 }
 duplicate([1,2,3,4,5]);
 
