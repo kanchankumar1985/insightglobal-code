@@ -18,6 +18,7 @@ function duplicate(src) {
  return [...src , ...src];
 }
 
+
 duplicate([1,2,3,4,5]);
 
 /**
